@@ -1,0 +1,28 @@
+{
+  "name": "server-auth",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon --experimental-json-modules app.js --exec ",
+    "start": "node --experimental-json-modules app.js"
+  },
+  "dependencies": {
+    "coingecko-api": "^1.0.10",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "firebase-admin": "^10.0.0",
+    "jwks-rsa": "^2.0.5",
+    "node-schedule": "^2.1.0",
+    "web-push": "^3.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
